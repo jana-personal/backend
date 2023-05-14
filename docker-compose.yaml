@@ -2,7 +2,7 @@ version: '3.3'
 services:
   db:
     platform: linux/amd64
-    image: arm64v8/mysql:latest
+    image: arm64v8/mysql:8.0
     restart: always
     environment:
       MYSQL_DATABASE: 'db'
